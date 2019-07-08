@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\Services\\TaxCalculator.Services\\TaxCalculator.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\DataLayer\\TaxCalculator.DataContracts\\TaxCalculator.DataContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\DataLayer\\TaxCalculator.DataContracts\\TaxCalculator.DataContracts.csproj",
+        "projectName": "TaxCalculator.DataContracts",
+        "projectPath": "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\DataLayer\\TaxCalculator.DataContracts\\TaxCalculator.DataContracts.csproj",
+        "packagesPath": "C:\\Users\\busmal01\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\DataLayer\\TaxCalculator.DataContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\busmal01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\Services\\TaxCalculator.Services\\TaxCalculator.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\Services\\TaxCalculator.Services\\TaxCalculator.Services.csproj",
+        "projectName": "TaxCalculator.Services",
+        "projectPath": "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\Services\\TaxCalculator.Services\\TaxCalculator.Services.csproj",
+        "packagesPath": "C:\\Users\\busmal01\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\Services\\TaxCalculator.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\busmal01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\DataLayer\\TaxCalculator.DataContracts\\TaxCalculator.DataContracts.csproj": {
+                "projectPath": "C:\\Users\\busmal01\\Documents\\_School\\netcore\\TaxCalculatorSln\\DataLayer\\TaxCalculator.DataContracts\\TaxCalculator.DataContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
